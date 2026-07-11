@@ -1,4 +1,4 @@
-import IdiomaMenu from "./IdiomaMenu";
+import IdiomaMenu from './IdiomaMenu';
 
 function Header(){
     return(
