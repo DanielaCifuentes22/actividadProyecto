@@ -25,10 +25,8 @@ function Hero(){
                 <div className="hero-texto">
                     <h1>GALERIA VIRTUAL CUECHA</h1>
                     <p>Soy pintura y dibujante. Mi trabajo explora la delicadeza de la acuarela
-                         y la profundidad del grafito y el carboncillo para construir imágenes
-                         en las que la memoria, la magia y la espiritualidad se entrelazan.
-                         Concibo el arte como un espacio de contemplación y transformación,
-                         donde cada obra invita a descubrir nuevos significados.
+                        y la profundidad del grafito y el carboncillo para construir imágenes
+                        en las que la memoria, la magia y la espiritualidad se entrelazan.
                     </p>
                 </div>
                 <div className="hero-slider">
