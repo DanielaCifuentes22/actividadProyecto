@@ -10,7 +10,7 @@ function Header(){
                 <img src={ubicacion} alt="ubicación"/>
             </div>
              <IdiomaMenu />
-            <nav>
+            <nav className = "nav">
                 <a href="#inicio">INICIO</a>
                 <a href="#obras">OBRAS</a>
                 <a href="exposiciones">EXPOSICIONES</a>
