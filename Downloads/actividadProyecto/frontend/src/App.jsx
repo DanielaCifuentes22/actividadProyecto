@@ -1,6 +1,7 @@
 // useEffect permite ejecutar una acción cuando carga el componente.
 // useState permite manejar información dinámica dentro del componente.
 import { useEffect, useState } from 'react';
+import './App.css';
 
 // URL de la API.
 const API_URL = 'http://localhost:3000/api/clientes';

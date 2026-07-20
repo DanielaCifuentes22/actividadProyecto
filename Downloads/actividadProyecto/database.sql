@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS clientes(
     documento VARCHAR(30) NOT NULL UNIQUE,
     direccion VARCHAR(100) NOT NULL,
     telefono VARCHAR(15) NOT NULL,
-    correo VARCHAR(100) NOT NULL,
+    correo VARCHAR(100) NOT NULL
 );
 --Cargue de datos de la tabla de clientes a la base de datos
 INSERT INTO clientes(nombre, documento, direccion, telefono, correo)
