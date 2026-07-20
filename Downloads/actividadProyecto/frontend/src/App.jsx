@@ -141,14 +141,14 @@ function App() {
 
   return (
     <main style={{ padding: '30px', fontFamily: 'Arial' }}>
-      <h1>Gestión de Clientes</h1>
-
-      <p>
-        Este módulo permite administrar de manera rápida y segura la información de sus clientes. Registre, consulte, actualice y elimine 
-        los datos personales de cada cliente para garantizar un registro organizado.
-      </p>
-
-      <section>
+      <div className='header'>
+         <h1>Gestión de Clientes</h1>
+          <p>
+            Este módulo permite administrar de manera rápida y segura la información de sus clientes. Registre, consulte, actualice y elimine 
+            los datos personales de cada cliente para garantizar un registro organizado.
+          </p>
+         </div>
+      <section className='formulario'>
         <h2>Registrar cliente</h2>
 
         <form onSubmit={registrarCliente}>
